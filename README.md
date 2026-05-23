@@ -84,6 +84,11 @@ The bug negatively affects gameplay and enemy NPC behavior, but it does not brea
 
 - Gameplay video
 
+
+https://github.com/user-attachments/assets/b85dcace-006b-4d9a-bf5f-67185fc80be3
+
+
+
 </details>
 
 <details>
@@ -139,6 +144,11 @@ The bug does not affect gameplay.
 
 - Gameplay video
 
+
+https://github.com/user-attachments/assets/46d9275f-cf00-4468-b6cf-f1b5d143fcf5
+
+
+
 </details>
 
 <details>
@@ -192,6 +202,11 @@ The bug does not affect gameplay.
 #### Attachments:
 
 - Gameplay video
+
+
+https://github.com/user-attachments/assets/731fbcc4-747f-48ea-8410-b1d4f864a8bc
+
+
 
 </details>
 
