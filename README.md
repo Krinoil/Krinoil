@@ -152,6 +152,65 @@ https://github.com/user-attachments/assets/46d9275f-cf00-4468-b6cf-f1b5d143fcf5
 </details>
 
 <details>
+<summary><strong>Bug - Collision overlap</strong></summary>
+
+#### Description:
+
+Project: [Blueprint Bob](https://suumpmolk.itch.io/blueprint-bob)
+
+Object can be placed overlapping the player, causing the player to become stuck and unable to move (only in browser version).
+
+#### Build:
+
+Jam version — browser version.
+
+#### Platform:
+
+PC, laptop.
+
+#### OS:
+
+Windows 10.
+
+#### Steps to Reproduce:
+
+1. Start the game.
+2. Overlap player unit by any object.
+3. Push start.
+  
+#### Expected Result:
+
+Avoid overlapping.
+
+#### Actual Result:
+
+Object overlapping and lock the player unit.
+
+#### Reproduction Rate:
+
+100%
+
+#### Severity:
+
+Medium
+
+#### Severity Reasoning:
+
+Negatively impacts the game experience. But is easily avoided or corrected by the player.
+
+#### Attachments:
+
+- Gameplay video
+
+
+https://github.com/user-attachments/assets/c496a678-5256-48af-aa8c-5a652b8a2c7b
+
+
+
+</details>
+
+
+<details>
 <summary><strong>Bug - Fullscreen Checkbox State Is Not Updated</strong></summary>
 
 #### Description:
