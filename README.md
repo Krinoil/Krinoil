@@ -330,6 +330,98 @@ https://github.com/user-attachments/assets/731fbcc4-747f-48ea-8410-b1d4f864a8bc
 </details>
 
 
+## Checklists
+
+<details>
+<summary><strong>Movement, Box Interaction and Collision Checklist</strong></summary>
+
+
+Project: 2D Platformer Game
+
+Tested area: Player movement, box interaction, collisions
+
+Tester: Junior QA Engineer
+
+Purpose: Check that the player can move, interact with the box, and complete the level without getting stuck.
+
+
+| ID    | Area              | Check                                                                       |
+| ----- | ----------------- | --------------------------------------------------------------------------- |
+| CH-01 | Player Movement   | Check that the player can move left and right.                              |
+| CH-02 | Player Movement   | Check that the player stops when movement input is released.                |
+| CH-03 | Player Movement   | Check that the player cannot move through walls.                            |
+| CH-04 | Jumping           | Check that the player can jump from the ground.                             |
+| CH-05 | Jumping           | Check that the player lands correctly after jumping.                        |
+| CH-06 | Jumping           | Check that the player cannot jump through the ceiling.                      |
+| CH-07 | Box Interaction   | Check that the player can push the box.                                     |
+| CH-08 | Box Interaction   | Check that the box moves when the player pushes it.                         |
+| CH-09 | Box Interaction   | Check that the box stops when pushed against a wall.                        |
+| CH-10 | Box Interaction   | Check that the box does not pass through the wall or floor.                 |
+| CH-11 | Box Interaction   | Check that the player can jump onto the box if this is intended by design.  |
+| CH-12 | Box Interaction   | Check that the player can jump back down from the box.                      |
+| CH-13 | Collision         | Check that the player does not get stuck between the box and the wall.      |
+| CH-14 | Collision         | Check that the player does not get stuck between the box and the ceiling.   |
+| CH-15 | Collision         | Check that the player does not get stuck while standing on or near the box. |
+| CH-16 | Collision         | Check that the player’s movement is not blocked after pushing the box.      |
+| CH-17 | Level Progression | Check that the level can still be completed after moving the box.           |
+| CH-18 | Level Progression | Check that the player cannot easily block the main path with the box.       |
+| CH-19 | Restart           | Check that restarting the level resets the player position correctly.       |
+| CH-20 | Restart           | Check that restarting the level resets the box position correctly.          |
+
+
+
+</details>
+
+
+## Test Cases
+
+<details>
+<summary><strong>Movement, Box Interaction and Collision Checklist</strong></summary>
+
+### Test Case ID: TC-01
+
+  Title: Verify that the player can safely interact with the box near a platform
+  
+  Project: 2D Platformer Game
+  
+  Feature/Area: Player Movement, Box Interaction, Collision
+  
+  Priority: Medium
+  
+  Test Type: Functional
+
+### Preconditions
+
+  The game is launched.
+  
+  The required level is loaded.
+  
+  The player is near the movable box.
+  
+  The box can be pushed by the player.
+  
+  There is a platform/ceiling above or near the box.
+
+### Test Steps
+
+| Step | Action                                                        | Expected Result                                                                                        |
+| ---- | ------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ |
+| 1    | Move the player to the box.                                   | The player moves to the box without any issues.                                                        |
+| 2    | Push the box toward the wall/platform area.                   | The box moves correctly and stops when it reaches an obstacle.                                         |
+| 3    | Try to jump onto the box.                                     | The player either jumps onto the box successfully or the jump is blocked if there is not enough space. |
+| 4    | Try to move left and right while standing on or near the box. | The player can move normally and does not get stuck.                                                   |
+| 5    | Try to jump down from the box.                                | The player can jump down and continue moving.                                                          |
+| 6    | Continue playing the level.                                   | The player can continue the level without losing control or getting stuck.                             |
+
+### Expected Result
+
+The player can interact with the box near the platform without getting stuck. If there is not enough space, the game should prevent the player from entering the collision area.
+
+
+</details>
+
+
+
 ## Contact
 
 - **Linkedin**: [linkedin.com/in/ruslan-kalaev-0a5596408](https://www.linkedin.com/in/ruslan-kalaev-0a5596408/)
