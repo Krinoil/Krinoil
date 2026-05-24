@@ -152,7 +152,7 @@ https://github.com/user-attachments/assets/46d9275f-cf00-4468-b6cf-f1b5d143fcf5
 </details>
 
 <details>
-<summary><strong>Bug - Collision overlap</strong></summary>
+<summary><strong>Bug - Collision Overlap</strong></summary>
 
 #### Description:
 
@@ -204,6 +204,66 @@ Negatively impacts the game experience. But is easily avoided or corrected by th
 
 
 https://github.com/user-attachments/assets/c496a678-5256-48af-aa8c-5a652b8a2c7b
+
+
+
+</details>
+
+
+<details>
+<summary><strong>Bug - Player Gets Stuck Between Box and Ceiling</strong></summary>
+
+#### Description:
+
+Project: [Loop/death](https://fankyu.itch.io/deathlooptype)
+
+In level 2 the player gets stuck between the box and the ceiling and can`t move.
+
+#### Build:
+
+Jam version — browser version.
+
+#### Platform:
+
+PC, laptop
+
+#### OS:
+
+Windows 10
+
+#### Steps to Reproduce:
+
+1. Launch the game.
+2. Load level 2.
+3. Push the box all the way against the wall.
+4. Continue pushing and try to jump onto the box.
+
+#### Expected Result:
+
+The player can jump onto the box, move around, or jump back down; alternatively, the player cannot jump onto the box because it`s impossible.
+
+#### Actual Result:
+
+The player can jump onto the box, but gets stuck and can`t move.
+
+#### Reproduction Rate:
+
+100%
+
+#### Severity:
+
+High
+
+#### Severity Reasoning:
+
+The player gets stuck in place, making it impossible to complete the level.
+
+#### Attachments:
+
+- Gameplay video
+
+
+https://github.com/user-attachments/assets/02db78ab-c9d6-4922-a6db-e708bf6da8be
 
 
 
