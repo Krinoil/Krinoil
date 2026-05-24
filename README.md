@@ -240,7 +240,7 @@ Windows 10
 
 #### Expected Result:
 
-The player can jump onto the box, move around, or jump back down; alternatively, the player cannot jump onto the box because it`s impossible.
+The player either jumps onto the box successfully or the jump is blocked if there is not enough space.
 
 #### Actual Result:
 
