@@ -336,13 +336,13 @@ https://github.com/user-attachments/assets/731fbcc4-747f-48ea-8410-b1d4f864a8bc
 <summary><strong>Movement, Box Interaction and Collision Checklist</strong></summary>
 
 
-Project: 2D Platformer Game
+- Project: 2D Platformer Game
 
-Tested area: Player movement, box interaction, collisions
+- Tested area: Player movement, box interaction, collisions
 
-Tester: Junior QA Engineer
+- Tester: Junior QA Engineer
 
-Purpose: Check that the player can move, interact with the box, and complete the level without getting stuck.
+- Purpose: Check that the player can move, interact with the box, and complete the level without getting stuck.
 
 
 | ID    | Area              | Check                                                                       |
@@ -376,31 +376,27 @@ Purpose: Check that the player can move, interact with the box, and complete the
 ## Test Cases
 
 <details>
-<summary><strong>Movement, Box Interaction and Collision Checklist</strong></summary>
+<summary><strong>Verify that the player can safely interact with the box</strong></summary>
 
 ### Test Case ID: TC-01
 
-  Title: Verify that the player can safely interact with the box near a platform
+- Title: Verify that the player can safely interact with the box
   
-  Project: 2D Platformer Game
+- Project: 2D Platformer Game
   
-  Feature/Area: Player Movement, Box Interaction, Collision
+- Feature/Area: Player Movement, Box Interaction, Collision
   
-  Priority: Medium
+- Priority: Medium
   
-  Test Type: Functional
+- Test Type: Functional
 
 ### Preconditions
 
-  The game is launched.
-  
-  The required level is loaded.
-  
-  The player is near the movable box.
-  
-  The box can be pushed by the player.
-  
-  There is a platform/ceiling above or near the box.
+ 1. The game is launched.
+ 2. The required level is loaded.
+ 3. The player is near the movable box. 
+ 4. The box can be pushed by the player.  
+ 5. There is a platform/ceiling above or near the box.
 
 ### Test Steps
 
