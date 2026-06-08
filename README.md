@@ -420,6 +420,6 @@ The player can interact with the box near the platform without getting stuck. If
 
 ## Contact
 
-- **Linkedin**: [linkedin.com/in/ruslan-kalaev-0a5596408](https://www.linkedin.com/in/ruslan-kalaev-0a5596408/)
+- **Telegram**: [@Krinoil](https://t.me/Krinoil)
 - **Email**: [krinoilk@gmail.com](mailto:krinoilk@gmail.com)
 - **GitHub**: [My GitHub Profile](https://github.com/Krinoil)
